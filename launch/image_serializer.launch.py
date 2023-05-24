@@ -7,7 +7,7 @@ def generate_launch_description():
     # Define the topic name launch argument
     topic_name_arg = DeclareLaunchArgument(
         'topic_name',
-        default_value='/camera/image_raw',
+        default_value='/camera/depth/image_raw',
         description='Name of the image topic to subscribe to'
     )
 
@@ -24,6 +24,7 @@ def generate_launch_description():
         package='image_serializer_pkg',
         executable='image_serializer_python.py',
         output='screen',
+        emulate_tty=True,
         parameters=[{'topic_name': LaunchConfiguration('topic_name')}]
     )
 

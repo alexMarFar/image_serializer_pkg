@@ -23,8 +23,7 @@ class ImageSerializer(Node):
          # Serialize the Image message
         serialized_msg = serialize_message(image_msg)
         msg_size = len(serialized_msg)
-        print('python')
-        print(msg_size)
+        print('python size: ' + str(msg_size) + ' bytes')
         pass
 
 def main(args=None):

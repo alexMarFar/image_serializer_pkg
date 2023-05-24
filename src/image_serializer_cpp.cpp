@@ -24,7 +24,7 @@ private:
     const void* image_ptr = reinterpret_cast<const void*>(image_msg.get());
     image_serialization.serialize_message(image_ptr, &serialized_data_img);
     size_t image_msg_size = serialized_data_img.size();
-    std::cout << "cpp" << image_msg_size << std::endl;
+    std::cout << "      cpp size:    " << image_msg_size << " bytes" << std::endl;
   
   }
 
