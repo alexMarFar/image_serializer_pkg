@@ -1,3 +1,8 @@
+// Copyright (C) - All Rights Reserved
+//
+// Written by Alejandra Martínez Fariña <alejandra.mf23be@gmail.com>
+// Licensed under the Apache License, Version 2.0
+
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/image.hpp>
 #include <rclcpp/serialization.hpp>

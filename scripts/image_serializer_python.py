@@ -1,4 +1,11 @@
-#!/usr/bin/env python3 
+#!/usr/bin/env python3
+
+# Copyright (C) - All Rights Reserved
+#
+# Written by Alejandra Martínez Fariña <alejandra.mf23be@gmail.com>
+# Licensed under the Apache License, Version 2.0
+
+
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image

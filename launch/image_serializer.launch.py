@@ -1,3 +1,8 @@
+# Copyright (C) - All Rights Reserved
+#
+# Written by Alejandra Martínez Fariña <alejandra.mf23be@gmail.com>
+# Licensed under the Apache License, Version 2.0
+
 import launch
 import launch_ros.actions
 from launch.actions import DeclareLaunchArgument
