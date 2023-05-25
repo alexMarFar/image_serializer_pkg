@@ -16,6 +16,8 @@ add_executable(image_serializer_cpp src/image_serializer_cpp.cpp)
 ament_target_dependencies(image_serializer_cpp rclcpp sensor_msgs)
 add_executable(camera_info_serializer_cpp src/camera_info_serializer_cpp.cpp)
 ament_target_dependencies(camera_info_serializer_cpp rclcpp sensor_msgs)
+add_executable(compressed_image_serializer_cpp src/compressed_image_serializer_cpp.cpp)
+ament_target_dependencies(compressed_image_serializer_cpp rclcpp sensor_msgs)
 add_executable(disparity_image_serializer_cpp src/disparity_image_serializer_cpp.cpp)
 ament_target_dependencies(disparity_image_serializer_cpp rclcpp stereo_msgs)
 
@@ -23,6 +25,7 @@ ament_target_dependencies(disparity_image_serializer_cpp rclcpp stereo_msgs)
 install(TARGETS
   image_serializer_cpp
   camera_info_serializer_cpp
+  compressed_image_serializer_cpp
   disparity_image_serializer_cpp
   DESTINATION lib/${PROJECT_NAME})
 
@@ -31,6 +34,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   scripts/image_serializer_python.py
   scripts/camera_info_serializer_python.py
+  scripts/compressed_image_serializer_python.py
   scripts/disparity_image_serializer_python.py
   DESTINATION lib/${PROJECT_NAME})
 

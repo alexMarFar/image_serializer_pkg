@@ -3,7 +3,7 @@
 <package format="3">
   <name>serializer_pkg</name>
   <version>0.0.0</version>
-  <description>ROS 2 package for serialization in rclpy and rclcpp. Available for sensor_msgs (Image, CameraInfo) and stereo_msgs (DisparityImage)</description>
+  <description>ROS 2 package for serialization in rclpy and rclcpp. Available for sensor_msgs (Image, CameraInfo, CompressedImage) and stereo_msgs (DisparityImage)</description>
   <maintainer email="alejandra.mf23be@gmail.com">amf</maintainer>
   <license>TODO: License declaration</license>
 
