@@ -6,6 +6,7 @@ Available for:
   - [x] Image
   - [x] CameraInfo
   - [x] CompressedImage
+  - [x] PointCloud2
 - stereo_msgs:
   - [x] DisparityImage
 
@@ -41,4 +42,8 @@ ros2 launch serializer_pkg compressed_image.launch.py
 - For DisparityImage (stereo_msgs)
 ```bash
 ros2 launch serializer_pkg disparity_image.launch.py
+```
+- For PointCloud2 (sensor_msgs)
+```bash
+ros2 launch serializer_pkg point_cloud2.launch.py
 ```
