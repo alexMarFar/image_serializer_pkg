@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>image_serializer_pkg</name>
+  <name>serializer_pkg</name>
   <version>0.0.0</version>
-  <description>ROS 2 package for image serialization in rclpy and rclcpp</description>
+  <description>ROS 2 package for serialization in rclpy and rclcpp. Available for sensor_msgs (Image, CameraInfo) and stereo_msgs (DisparityImage)</description>
   <maintainer email="alejandra.mf23be@gmail.com">amf</maintainer>
   <license>TODO: License declaration</license>
 
@@ -11,8 +11,10 @@
   
   <build_depend>rclcpp</build_depend>
   <build_depend>sensor_msgs</build_depend>
+  <build_depend>stereo_msgs</build_depend>
   <exec_depend>rclcpp</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>stereo_msgs</exec_depend>
   <exec_depend>image_transport</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
