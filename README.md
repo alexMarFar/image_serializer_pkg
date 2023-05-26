@@ -1,5 +1,5 @@
 # serializer_pkg
-ROS2 package for image serialization in both rclpy and rclcpp.
+ROS2 package for message serialization in both rclpy and rclcpp.
 
 Available for:
 - sensor_msgs:
